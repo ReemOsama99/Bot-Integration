@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrY7O8T4kN58uMxHgTV87l1TKuBtJGVFEg/pv+MgHXa1TOrcQCc59RvBhfhxcxPBNyRgmGwpHvf59rbn63Y78g==",
+  "dgSpecHash": "xx12xxOZ3TGy2k2u8HXMWkP1MZNZi7Aq3Xdq0US7LjfNHYBwDBTwZowjHm0Rym7blllWdhUY8UgasNQF/F4ukQ==",
   "success": true,
-  "projectFilePath": "F:\\D\\Uni\\Third Year\\WideBot Task\\Trial\\Task\\Task.csproj",
+  "projectFilePath": "F:\\D\\Uni\\Github repos\\WideBot task\\Bot-Integration\\Task\\Task.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",

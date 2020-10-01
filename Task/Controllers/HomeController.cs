@@ -41,7 +41,7 @@ namespace Task.Controllers
         
         public async Task<string> Index()
         {
-            //Calling users API
+            //Consuming the given Sample API 
             OriginalFile rootObj = new OriginalFile();
             using (var httpClient = new HttpClient())
             {
@@ -53,8 +53,7 @@ namespace Task.Controllers
             }
 
             //Building JSON Object for the Facebook Response
-            /*var FbResponse = new Response
-            {*/
+            
             var FacebookResponse = new FacebookResponse
             {
                 messaging_type = "RESPONSE",
@@ -72,7 +71,7 @@ namespace Task.Controllers
                             template_type = "generic",
                             elements = new List<Element>()
                             {
-                                //Only 1 generic template with 1 button
+                                  //Only 1 generic template, chose it to be the third user, with 1 button
                                     new Element()
                                     {
                                         title = rootObj.data[2].first_name,
@@ -99,7 +98,7 @@ namespace Task.Controllers
                     }
                 }
             };
-            //};
+            //Converting to a JSON object and returning it
             var jsonString = Newtonsoft.Json.JsonConvert.SerializeObject(FacebookResponse);
             return jsonString;
         }

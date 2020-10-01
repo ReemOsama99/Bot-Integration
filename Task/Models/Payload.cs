@@ -8,7 +8,6 @@ namespace Task.Models
     public class Payload
     {
         public string template_type { get; set; }
-        //public Element elements { get; set; }
         public List<Element> elements { get; set; }
        
     }

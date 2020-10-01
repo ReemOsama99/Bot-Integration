@@ -11,7 +11,6 @@ namespace Task.Models
         public string image_url { get; set; }
         public string subtitle { get; set; }
         public DefaultAction default_action { get; set; }
-        //public Button buttons { get; set; }
         public List<Button> buttons { get; set; }
     }
 }

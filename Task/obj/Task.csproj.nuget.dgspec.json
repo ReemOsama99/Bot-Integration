@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\D\\Uni\\Third Year\\WideBot Task\\Trial\\Task\\Task.csproj": {}
+    "F:\\D\\Uni\\Github repos\\WideBot task\\Bot-Integration\\Task\\Task.csproj": {}
   },
   "projects": {
-    "F:\\D\\Uni\\Third Year\\WideBot Task\\Trial\\Task\\Task.csproj": {
+    "F:\\D\\Uni\\Github repos\\WideBot task\\Bot-Integration\\Task\\Task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\D\\Uni\\Third Year\\WideBot Task\\Trial\\Task\\Task.csproj",
+        "projectUniqueName": "F:\\D\\Uni\\Github repos\\WideBot task\\Bot-Integration\\Task\\Task.csproj",
         "projectName": "Task",
-        "projectPath": "F:\\D\\Uni\\Third Year\\WideBot Task\\Trial\\Task\\Task.csproj",
+        "projectPath": "F:\\D\\Uni\\Github repos\\WideBot task\\Bot-Integration\\Task\\Task.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "F:\\D\\Uni\\Third Year\\WideBot Task\\Trial\\Task\\obj\\",
+        "outputPath": "F:\\D\\Uni\\Github repos\\WideBot task\\Bot-Integration\\Task\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
