@@ -80,7 +80,7 @@ namespace Task.Controllers
                                         default_action= new DefaultAction
                                         {
                                            type="web_url",
-                                           url=rootObj.data[2].email,
+                                           url="mailto:"+rootObj.data[2].email+"?Subject=Hello",
                                            webview_height_ratio="tall"
                                         },
                                         buttons = new List<Button>()
@@ -88,7 +88,7 @@ namespace Task.Controllers
                                            new Button()
                                            {
                                              type = "web_url",
-                                             url = rootObj.data[2].email,
+                                             url = "mailto:"+rootObj.data[2].email+"?Subject=Hello",
                                              title = "Send Email"
                                            }
                                         }
